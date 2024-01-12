@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 96%;
+    width: 1270px;
+    background-color: #2a2020;
+    color: #fff;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.heading{
+    margin: auto 25px;
+    padding: auto 20px;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 0px;
+}
+
+h1{
+    width: 500px;
+}
+
+.icons{
+    margin: 50px 100px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    height: 50px;
+    width: 150px;
+}
+
+
+.cta{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    margin: 120px 450px 0px 0px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.music, .podcast{
+    color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+ }
+
+ .podcast{
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: gray;
+    width: 150px;
+    height: 26px;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .music{
+    margin: 0px -10px;
+    border-radius: 30px;
+    background-color: gray;
+    width: auto;
+    height: 26px;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .audiobook{
+    margin: 0px 0px 0px 10px;
+    border-radius: 30px;
+    background-color: gray;
+    width: 100px;
+    height: 26px;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+
+ .podcast:hover, .music:hover, .audiobook:hover{
+    background-color: #d4c1c1;
+ }
+
+ /* Quick-Link Container */
+
+
+ .quick-link-container {
+    width: 100%;
+    height: 300px;
+    margin: 55px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 2px;
+  }
+
+ .artist-link{
+    background-color: #2a2a2a;
+    width: 450px;
+    height: 90px;
+    padding: 20px;
+    margin :0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.artist-link-img {
+    position: relative;
+    margin:0px;
+    background-image: url("images/drake.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: 76px;
+}
+
+ .artist-link-title{
+    width: 140px;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+    background-color: none;
+    font-weight: 900;
+}
+
+
+.artist-link:nth-child(2){
+    margin-left :80px;
+
+}
+
+.artist-link:nth-child(4){
+    margin-left :80px;
+}
+
+.artist-link:nth-child(6){
+    margin-left :80px;
+} 
+
+
+.fa-circle-play{
+    font-size: 30px;
+    margin: 0px 0px 0px 60px;
+    width: auto;
+    height: auto;
+}
+
+
+
+.fa-circle-play:hover{
+    color: #1fdf64;
+}
+
+.cee{
+    background-image: url("images/central\ cee.jpeg");
+}
+
+.drake{
+    background-image: url("images/drake.jpeg");
+}
+
+.brent{
+    background-image: url("images/brent.jpeg");
+}
+
+.tory{
+    background-image: url("images/tory.jpeg");
+}
+
+.summer{
+    background-image: url("images/summer.jpeg");
+}
+
+.momo{
+    background-image: url("images/momo.jpeg");
+}
+
+.artist-link:hover{
+    background-color: rgb(64, 60, 60);
+}
+
+/* Trending Albums */
+.trending-albums-container{
+    margin: 0px 0px 0px 0px ;
+}
+
+.trending-albums-heading h2{
+    margin: auto 25px;
+    padding: auto 20px;
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.album-container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.album-covers{
+    height: 350px;
+    width: 290px;
+    display: block;
+    padding: 26px;
+}
+
+.album-covers-img{
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.burna{
+    background-image: url("images/burnaboy.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.drake-cover{
+    background-image: url("images/fatg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.momo-cover{
+    background-image: url("images/khurula.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.kabza{
+    background-image: url("images/isimo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.album-covers-title{
+    color: #b3b3b3;
+    height: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 119px 0px 50px;
+}
+
+.album-covers-title:hover{
+    color: #c7c7c7;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+/* Recently Played */
+
+.recently-played{
+    height: 250px;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.recently-played-container{
+   height: 100%;
+   width: 100%; 
+   margin-left: 10px;
+   display: flex;
+}
+
+.recently-played-heading{
+    height: 60px;
+    width: 365px; 
+}
+
+.recently-played-heading h2{
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    height: 60px;
+    width: 365px;
+
+}
+
+ .artist-container{
+    height: 200px;
+    width: 200px;
+    margin: 0px 60px 20px 0px;
+
+}
+
+
+.artist-covers-title{
+    margin: 30px 0px 30px 60px;
+    width: 100px;
+    height: 20px;
+    color: #b3b3b3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.artist-covers-img1{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    background: url("images/eli-sostre.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.artist-covers-img2{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    background: url("images/wen\'umuhle.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.artist-covers-img3{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    background: url("images/momo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.artist-covers-img4{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    background: url("images/babalwa.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.artist-covers-img5{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    background: url("images/dreezy.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Set the background color of your footer */
+  color: #fff; /* Set the text color of your footer */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  font-size: 16px;
+}
+
+.home{
+    margin: 0px 0px 0px 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.library{
+    margin: 0px 100px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search{
+    font-size: 20px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
